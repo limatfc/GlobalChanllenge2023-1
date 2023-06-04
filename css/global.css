@@ -3,6 +3,32 @@ body {
   font-family: "Pangolin", sans-serif;
 }
 
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: start;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 #header {
   background-color: #6aaff2;
   display: flex;
