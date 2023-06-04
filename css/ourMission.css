@@ -1,1 +1,52 @@
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+#content-header-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content-header-images span {
+  font-size: 18px;
+}
+
+#content-header p:last-child {
+  text-decoration: underline;
+}
+
+#content-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#content-buttons button {
+  background-color: #6aaff2;
+  height: 60px;
+  width: 200px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin: 16px;
+  width: 250px;
+  text-align: center;
+}
