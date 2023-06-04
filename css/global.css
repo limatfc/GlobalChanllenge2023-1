@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "Pangolin", sans-serif;
+}
+
+#header {
+  background-color: #6aaff2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#header ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+#header div {
+  padding-left: 5%;
+}
+
+#header ul li {
+  font-size: 30px;
+  color: white;
+  width: min-content;
+  text-align: center;
+}
