@@ -14,14 +14,190 @@
   <body>
     <div id="header">
       <div>
-        <img src="../images/logo.png" />
+        <a href="../index.html">
+          <img src="../images/logo.png" />
+        </a>
       </div>
       <ul>
-        <li>Nossa motivação</li>
-        <li>Nossa missão</li>
-        <li>Nosso impacto</li>
-        <li>Saiba mais</li>
+        <li><a href="../pages/ourMotivation.html">Nossa motivação</a></li>
+        <li class="selected">Nossa missão</li>
+        <li><a href="../pages/ourImpact.html">Nosso impacto</a></li>
+        <li><a href="../pages/aboutUs.html">Saiba mais</a></li>
       </ul>
     </div>
+    <div id="content">
+      <div id="content-header">
+        <h1>Nossa missão</h1>
+        <h2>Nós lutamos pela erradicação da fome no mundo</h2>
+        <p>
+          No mundo, um total de 2,3 bilhões de pessoas se encontram em situacao
+          de inseguranca alimentar grave ou moderada. Muita gente, nāo é mesmo?
+          Para facilitar nosso entendimento, vamos mostrar alguns dados em
+          porcentagens!
+        </p>
+        <p>
+          2,3 bilhoes de pessoas representam, entāo, 100% das pessoas afetadas.
+          Para facilitar a visualizacao, considere que cada um dos avatares
+          abaixo abaixo representa 10% dessa parcela.
+        </p>
+        <div id="content-header-images">
+          <div>
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+            <img src="../images//avatar.png" />
+          </div>
+          <span>100%</span>
+        </div>
+        <p>
+          Clique na regiāo que vocë gostaria de saber mais sobre a relacao entre
+          a populacao e a inseguranca alimentar:
+        </p>
+      </div>
+      <div id="content-buttons">
+        <button onclick="displayAfricaData()">África</button>
+        <button onclick="displayLatinAmericaData()">
+          América latina e Caribe
+        </button>
+        <button onclick="displayAsiaData()">Ásia</button>
+        <button onclick="displayOceaniaData()">Oceania</button>
+        <button onclick="displayNorthAmericaData()">
+          América do norte e Europa
+        </button>
+        <button onclick="displayGlobalAverageData()">Média mundial</button>
+      </div>
+      <div id="content-dynamic-data">
+        <div class="data-by-region" id="africa">
+          <p>África</p>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave:</span>
+              <span>23,4%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/half-avatar.png" />
+          </div>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave ou moderada:</span>
+              <span>57,9%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/half-avatar.png" />
+          </div>
+        </div>
+        <div class="data-by-region" id="latin-america-and-caribe">
+          <p>América latina e Caribe</p>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave:</span>
+              <span>14,2%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+            <img src="../images/half-avatar.png" />
+          </div>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave ou moderada:</span>
+              <span>40,6%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+          </div>
+        </div>
+        <div class="data-by-region" id="asia">
+          <p>Ásia</p>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave:</span>
+              <span>10,5%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+          </div>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave ou moderada:</span>
+              <span>24,6%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/half-avatar.png" />
+          </div>
+        </div>
+        <div class="data-by-region" id="oceania">
+          <p>Oceania</p>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave:</span>
+              <span>4,5%</span> das pessoas
+            </p>
+            <img src="../images/half-avatar.png" />
+          </div>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave ou moderada:</span>
+              <span>13%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+            <img src="../images/half-avatar.png" />
+          </div>
+        </div>
+        <div class="data-by-region" id="north-america-and-europe">
+          <p>América do Norte e Europa</p>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave:</span>
+              <span>1,5%</span> das pessoas
+            </p>
+            <img src="../images/half-avatar.png" />
+          </div>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave ou moderada:</span>
+              <span>8%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+          </div>
+        </div>
+        <div class="data-by-region" id="global-average">
+          <p>Média mundial</p>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave:</span>
+              <span>9,8%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+          </div>
+          <div class="data-details">
+            <p>
+              Situação de <span>insegurança alimentar grave ou moderada:</span>
+              <span>29,3%</span> das pessoas
+            </p>
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+            <img src="../images/avatar.png" />
+          </div>
+        </div>
+        <p id="last-text">
+          Diante desses dados, a Fast Fruit nāo poderia ficar de braços
+          cruzados! È a nossa missão atuar ativamente no combate a fome através
+          da redução do desperdício no transporte de alimentos.
+        </p>
+      </div>
+    </div>
+    <script src="../js/ourMission.js"></script>
   </body>
 </html>

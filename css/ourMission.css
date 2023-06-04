@@ -1,1 +1,102 @@
+#content {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+#content-header-images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content-header-images span {
+  font-size: 18px;
+}
+
+#content-header p:last-child {
+  text-decoration: underline;
+}
+
+#content-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#content-buttons button {
+  background-color: #6aaff2;
+  height: 60px;
+  width: 200px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  margin: 16px;
+  width: 250px;
+  text-align: center;
+}
+
+#content-buttons button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#content-dynamic-data {
+  margin: 24px 0;
+}
+
+.data-by-region {
+  display: flex;
+}
+
+.data-by-region > p {
+  width: 20%;
+  text-align: start;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.data-by-region p {
+  margin-right: 48px;
+}
+
+.data-details p span {
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+.data-details img {
+  width: 40px;
+  height: auto;
+  margin-left: 8px;
+}
+
+#africa,
+#latin-america-and-caribe,
+#asia,
+#oceania,
+#global-average,
+#north-america-and-europe,
+#last-text {
+  display: none;
+}
+
+#last-text {
+  margin: 48px 0;
+}
