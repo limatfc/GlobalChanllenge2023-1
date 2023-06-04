@@ -59,12 +59,16 @@
         </p>
       </div>
       <div id="content-buttons">
-        <button>África</button>
-        <button>América latina e Caribe</button>
-        <button>Ásia</button>
-        <button>Oceania</button>
-        <button>América do norte e Europa</button>
-        <button>Média mundial</button>
+        <button onclick="displayAfricaData()">África</button>
+        <button onclick="displayLatinAmericaData()">
+          América latina e Caribe
+        </button>
+        <button onclick="displayAsiaData()">Ásia</button>
+        <button onclick="displayOceaniaData()">Oceania</button>
+        <button onclick="displayNorthAmericaData()">
+          América do norte e Europa
+        </button>
+        <button onclick="displayGlobalAverageData()">Média mundial</button>
       </div>
       <div id="content-dynamic-data">
         <div class="data-by-region" id="africa">
@@ -185,12 +189,13 @@
             <img src="../images/avatar.png" />
           </div>
         </div>
-        <p>
-          Diante de todos esses dados, a Fast Fruit nāo poderia ficar de braços
+        <p id="last-text">
+          Diante desses dados, a Fast Fruit nāo poderia ficar de braços
           cruzados! È a nossa missão atuar ativamente no combate a fome através
           da redução do desperdício no transporte de alimentos.
         </p>
       </div>
     </div>
+    <script src="../js/ourMission.js"></script>
   </body>
 </html>

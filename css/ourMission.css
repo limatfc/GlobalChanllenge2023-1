@@ -51,6 +51,10 @@ p {
   text-align: center;
 }
 
+#content-dynamic-data {
+  margin: 24px 0;
+}
+
 .data-by-region {
   display: flex;
 }
@@ -75,4 +79,18 @@ p {
   width: 40px;
   height: auto;
   margin-left: 16px;
+}
+
+#africa,
+#latin-america-and-caribe,
+#asia,
+#oceania,
+#global-average,
+#north-america-and-europe,
+#last-text {
+  display: none;
+}
+
+#last-text {
+  margin: 48px 0;
 }
