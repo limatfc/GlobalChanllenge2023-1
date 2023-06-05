@@ -1,0 +1,52 @@
+#content img {
+  display: block;
+  max-width: 100%;
+  width: 400px;
+  height: 300px;
+}
+
+/* TEXTOS */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer p,
+li,
+span {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* DIVS ETC */
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 20%;
+}
+
+.textos {
+  width: 30%;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #6aaff2;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* IMGS */
