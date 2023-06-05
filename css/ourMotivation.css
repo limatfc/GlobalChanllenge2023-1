@@ -1,0 +1,24 @@
+table,
+th,
+td,
+caption {
+  margin: auto;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #6aaff2;
+  border-collapse: collapse;
+  border-width: 3px;
+  padding: 10px 80px;
+}
+
+caption {
+  border-bottom: none;
+}
+
+#content > p > a {
+  color: #6aaff2;
+}
+
+#content > p > a:hover {
+  text-decoration: underline;
+}
