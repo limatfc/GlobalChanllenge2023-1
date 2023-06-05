@@ -23,14 +23,27 @@ span {
 
 section {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  gap: 20%;
+  justify-content: space-around;
+  align-items: start;
 }
 
 .textos {
-  width: 30%;
+  width: 50%;
+}
+
+.textos h2 {
+  text-align: start;
+}
+
+.imagem {
+  width: 50%;
+  padding: 24px;
+  display: flex;
+  justify-content: end;
+}
+
+.imagem img {
+  width: 100%;
 }
 
 footer {
