@@ -17,6 +17,10 @@
   border: none;
 }
 
+#content-details p {
+  margin: 48px 0;
+}
+
 #content-details-item {
   margin: 24px 0;
 }
